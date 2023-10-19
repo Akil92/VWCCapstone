@@ -1,0 +1,52 @@
+h1 {
+    color: var(--h1-color);
+    text-align: center;
+}
+
+h2 {
+    color: var(--h1-color);
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-color: var(--border-color);
+    margin:auto;
+    text-align: center;
+    border-style: dashed;
+    border-width: 5px;
+    width: 250px;
+}
+
+p {
+    color: var(--p-color);
+    font-size: 22px;
+}
+
+span {
+    color: var(--span-color);
+}
+
+:root {
+    /* A light gray for the background */
+    --primary-bg: #fff4e5;
+    --secondary-text: #555555;
+    --span-color: rgb(227, 201, 50);
+    --h1-color: red;
+    --border-color: black;
+    --p-color: #666;
+}
+  
+  /* Dark Theme (Original Portfolio colors) */
+  .dark-theme {
+    --primary-bg: #343a40;
+    --secondary-text: #cccccc;
+    --span-color: red;
+    --h1-color: yellow;
+    --border-color: white;
+    --p-color: color: #fff;
+  }
+
+body{
+    background-color: var(--primary-bg);
+    color: var(--secondary-text);
+}
+
